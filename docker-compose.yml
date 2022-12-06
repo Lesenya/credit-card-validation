@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  creditcardvalidation:
+    container_name: creditcardvalidation
+    build: ./
+    ports:
+      - 8080:5000
